@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="testSuite">
+	<!-- parameter name="browser" value="chrome" /-->
+	<test name="testSuite" preserve-order="true">
+		<classes>
+			<class name="TestCases.firstScenarioTestCase" />
+			<class name="TestCases.secondScenarioTestCase" />
+			
+		</classes>
+	</test>
+</suite> 
